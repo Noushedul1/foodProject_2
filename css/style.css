@@ -1,0 +1,83 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap');
+/* Start for navbar */
+
+/* End for navbar */
+/* Start for banner */
+.foodbanner{
+	background-image: url('../img/banner.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+h1{
+	color:white;
+	text-align: center;
+}
+/* End for banner */
+/* Start for food shop details  */
+#shopdetails{
+	margin-top:30px;
+}
+#shopdetails img{
+	height: 200px;
+	object-fit: cover;
+}
+#shopdetails .pricing{
+	background:rgb(177, 212, 194);
+	padding-left: 10px;
+}
+#shopdetails h2{
+	text-align:center;
+ }
+ @media (max-width:768px){
+	#shopdetails .foodz{
+		margin-top:10px;
+	}
+	#shopdetails img{
+		width:100%;
+		object-fit: cover;
+	}
+ }
+/* End for food shop details  */
+/* Start for sponsor */
+.flex-container{
+	display: flex;
+	flex-wrap:wrap;
+	margin-top:20px;
+}
+.brand{
+	margin:10px;
+	transition: all .4s .5s ease;
+}
+.brand:hover{
+	opacity: .5;
+}
+#sponsor h4{
+	text-align: center;
+}
+/* End for sponsor */
+/* Start for footer */
+footer{
+	font-family: 'Hind Siliguri', sans-serif;
+}
+.footerbody{
+	background:black;
+	color:white;
+	padding: 20px;
+}
+.fab:hover{
+	color:white;
+	transition:all .3s .2s ease;
+}
+.copy{
+	background: black;
+	color:white;
+	text-align:center;
+}
+/* End for footer */
